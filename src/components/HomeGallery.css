@@ -1,0 +1,121 @@
+.galle {
+    background-color: #151515;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+  }
+
+.homegallery-header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.homegallery-header h1 {
+    margin: 0;
+    font-size: 32px;
+        /* line-height: 60px; */
+    
+    font-family: Bebas Neue;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+/* 2nd */
+.image-collage {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.image-collage img {
+    width: 15%;
+    padding: 2px;
+
+}
+
+.image-collage img:hover {
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+.image-collage .gallery {
+    width: 30%;
+    padding: 2px;
+}
+
+
+/* Story btn */
+
+/*Explore btn*/
+.homegallerybtn {
+
+    border-radius: 40px;
+    /* background-color: #8b2266; */
+    /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+    background: linear-gradient(to right, #912569 0%, #d34156 100%);
+
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    width: 140px;
+    height: 42px;
+    /* transition: all 0.3s; */
+
+    cursor: pointer;
+    left: 0% ;
+    margin-top: 20px;
+    /* box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%) */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+.homegallerybtn:hover {
+
+    border-radius: 40px;
+    /* background-color: #8b2266; */
+    /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+    background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%);
+
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    width: 140px;
+    height: 42px;
+    /* transition: all 0.3s; */
+    cursor: pointer;
+    margin-left: 0%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 25%), 1px 1px 8px rgb(0 0 0 / 22%)
+}
+
+.homegallerybtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.homegallerybtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.homegallerybtn:hover span {
+    padding-right: 25px;
+}
+
+.homegallerybtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
