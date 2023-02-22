@@ -17,9 +17,9 @@ function Navbar() {
     };
 
     // link to site
-   /*  const handleClick = () => {
-        window.location.href = 'https://www.india.gov.in/';
-      }; */
+    /*  const handleClick = () => {
+         window.location.href = 'https://www.india.gov.in/';
+       }; */
     return (
         <div className={`theme-${theme}`}>
             <div className='NavbarBgColor '>
@@ -67,9 +67,9 @@ function Navbar() {
 
                                     {/*                                     <span class="topdivider" />
  */}
-                                   
+
                                     <a href="#/" class=""><span className="mr-2  "></span>
-                                     <span className="d-none d-md-inline-block">Language</span></a>
+                                        <span className="d-none d-md-inline-block">Language</span></a>
                                     <span className="mx-md-2 d-inline-block"></span>
                                     {/*                                     <span class="topdivider" />
  */}
