@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+
+.fibudaha-parent-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+/* Partners caption */
+.fibudaha-header {
+  text-align: center;
+  margin-top: 30px !important;
+}
+
+.fibudaha-header h1 {
+  margin: 0;
+  font-size: 32px;
+  /* line-height: 60px; */
+
+  font-family: Bebas Neue !important;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  /* margin-top: 20px; */
+
+}
+
+.fibudaha-card-2 {
+  /* max-width: 300px; */
+  /* width: 240px;
+    height: 400px; */
+  width: 310px;
+  height: 498px;
+  background-color: #363636;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  margin: 15px auto;
+  border-radius: 20px;
+}
+
+/* .profile-card-2 img {
+    transition: all linear 0.25s;
+    
+} */
+
+.fibudaha-card-2 .fibudaha-name {
+  position: absolute;
+  /* left: 65px;
+    top: 200px; */
+  font-size: 24px;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  color: #FFF;
+  letter-spacing: 1.2px;
+  text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.5);
+  /* transition: all linear 0.25s; */
+}
+
+
+.fibudaha-card-2 .fibudaha-icons {
+  position: absolute;
+  border-radius: 1px;
+  border-style: solid;
+  /* border-width: medium; */
+  font-size: 18px;
+  bottom: 65px;
+  right: 85px;
+  color: #FFF;
+  width: 133px;
+  height: 41px;
+  /* transition: all linear 0.25s; */
+}
+
+.fibudaha-cover p {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.fibudaha-banner {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+
+  /* filter: brightness(0.5); */
+  display: flex;
+  /* box-shadow: 2px 4px 10px #000; */
+  margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+  .fibudaha-banner {
+    flex: 100%;
+    height: 500px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .fibudaha-banner {
+    flex: 100%;
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .fibudaha-banner {
+    flex: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .fibudaha-banner {
+    flex: 100%;
+    height: 200px;
+  }
+}
+
+.fibudaha-icons:hover {
+  /* right: 40px; */
+  color: rgb(255, 255, 255) !important;
+  background: #344c6d !important;
+  border-color: #344c6d !important;
+  cursor: pointer;
+
+}
+
+/* slick custom */
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 45px !important;
+    line-height: 1;
+
+    opacity:.75;
+    color: #151515 !important;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* changes made here if categories and childrens section is not working properly then instead of 'padding: 0' add padding:30px */
+.slick-list {
+    padding: 0px !important;
+}
+
+
+.slick-track {
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 6px !important;
+    z-index: 1;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px ;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: '←';
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '→';
+}
+
+.slick-next {
+    right: 30px !important;
+    z-index: 1;
+
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: '→';
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '←';
+}
+
+/* @media only screen and (max-width: 480px) {
+    .slick-slider {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .slick-list {
+        width: 100%;
+    }
+
+
+} */
+
+
+ 
+   
+   
+  .fibudaha-float-container {
+    position: fixed;
+    top: 38%;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    z-index: 99;
+}
+
+.fibudaha-float-container a {
+    z-index: 99;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 220px;
+    height: 40px;
+    margin-right: -180px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-color: #46b8da;
+    border-radius: 5px 0 0 5px;
+    background-color: #89216B;
+    -webkit-box-shadow: 0 2px 4px #7d7d7d;
+    box-shadow: 0 2px 4px #7d7d7d;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+
+.fibudaha-float-container a:hover {
+    margin-right: 0;
+    background-color: #89216B;
+    opacity: 1.0;
+    color: #FFF !important;
+    -webkit-box-shadow: 0 2px 4px #7d7d7d;
+    box-shadow: 0 2px 4px #7d7d7d;
+    width: 150px;
+}
+
+/* Icon settings - remove if not needed*/
+.fibudaha-float-container .icon:before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 25px;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.icon.one:before {
+    content: "\f073";
+}
+
+.icon.two:before {
+    content: "\f086";
+}
+
+/* .icon.three:before {
+    content: "\f1d8";
+} */
+
+/* Media queries */
+@media screen and (max-width:440px)
+{
+	/* .fibudaha-float-container .icon:last-child {
+		display: none;
+	} */
+    .fibudaha-float-container
+    {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+            -ms-flex-direction: row;
+                flex-direction: row;
+
+        width: 100%;
+        z-index: 99;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: auto;
+        -webkit-box-align: auto;
+        -ms-flex-align: auto;
+        align-items: auto;
+        opacity: 1.0;
+        
+        
+    }
+		.fibudaha-float-container a.icon
+    {
+        right: 0;
+        bottom: 0;
+        opacity: 1.0;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+        padding: 5px;
+        z-index: 99;
+        border-radius: 0;
+        -webkit-box-shadow: 0 0 0 #7d7d7d;
+                box-shadow: 0 0 0 #7d7d7d;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+		border-left: 1px solid darkorange;
+		border-right: 1px solid darkorange;
+    }
+}
+
+
+/*** Discard this ***/

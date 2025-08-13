@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+
+.timelesstrends-parent-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+/* Partners caption */
+.timelesstrends-header {
+  text-align: center;
+  /* margin-top: 60px !important; */
+}
+.timelesstrends-header h1 {
+    margin: 0;
+    font-size: 32px;
+    /* line-height: 60px; */
+  
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    margin-top: 20px;
+  
+  }
+
+  .timelesstrends-banner {
+    width: 100% ;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  
+    /* filter: brightness(0.5); */
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+  
+  }
+  
+  @media (max-width: 1024px) {
+    .timelesstrends-banner {
+      flex: 100% ;
+      height: 500px;
+    }
+  
+  }
+  
+  @media (max-width: 800px) {
+    .timelesstrends-banner {
+      flex: 100%;
+      height: 400px;
+    }
+  
+  }
+  
+  @media (max-width: 600px) {
+    .timelesstrends-banner {
+      flex: 100%;
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .timelesstrends-banner {
+      flex: 100%;
+      height: 200px;
+    }
+  }
+  
+
+  .timelesstrends-cover p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 30px;
+  }
+
+   
+   
+   
+  .timelesstrends-card-2 {
+    /* max-width: 300px; */
+    /* width: 240px;
+      height: 400px; */
+    width: 310px;
+    height: 498px;
+    background-color: #363636;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 20px;
+    
+  }
+  
+  /* .profile-card-2 img {
+      transition: all linear 0.25s;
+      
+  } */
+  
+  .timelesstrends-card-2 .timelesstrends-name {
+    position: absolute;
+    /* left: 65px;
+      top: 200px; */
+    font-size: 24px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    color: #FFF;
+    letter-spacing: 1.2px;
+    text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.5);
+    /* transition: all linear 0.25s; */
+  }
+  
+  
+  .timelesstrends-card-2 .timelesstrends-icons {
+    position: absolute;
+    border-radius: 1px;
+    border-style: solid;
+    /* border-width: medium; */
+    font-size: 18px;
+    bottom: 65px;
+    right: 85px;
+    color: #FFF;
+    width: 133px;
+    height: 41px;
+    /* transition: all linear 0.25s; */
+  }
+  .timelesstrends-icons:hover {
+    /* right: 40px; */
+    color: rgb(255, 255, 255) !important;
+    background: #344c6d !important;
+    border-color: #344c6d !important;
+    cursor: pointer;
+  
+  }
+  
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+} */
+
+.timelesstrends-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 0;
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.timelesstrends-grid-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#tribal {
+    background-image: url('../image/timelessimg1.png');
+    grid-column: span 2;
+    height: 291px;
+}
+
+#fairs {
+    background-image: url('../image/timelessimg2.png');
+    grid-column: span 2;
+    height: 291px;
+}
+
+#pan-india {
+    background-image: url('../image/timelessimg3.png');
+
+    grid-column: span 3;
+    height: 291px;
+}
+
+#folk {
+    background-image: url('../image/timelessimg4.png');
+
+    grid-column: span 1;
+    height: 291px;
+}
+
+.timelesstrends-overlay {
+    position: absolute;
+    bottom: 0;
+    /* background: rgba(10, 0, 0, 0.5); */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(29, 29, 29, 0.4482) 32.81%, rgba(28, 28, 28, 0.7636) 64.06%, rgba(0, 0, 0, 0.83) 100%);;
+
+    color: #fff;
+    width: 100%;
+   
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .timelesstrends-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #tribal {
+        grid-column: span 2;
+    }
+
+    #fairs {
+        grid-column: span 2;
+    }
+
+    #pan-india {
+        grid-column: span 2;
+    }
+
+    #folk {
+        grid-column: span 2;
+    }
+
+    .timelesstrends-grid-item {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timelesstrends-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #tribal {
+        grid-column: span 2;
+    }
+
+    #fairs {
+        grid-column: span 2;
+    }
+
+    #pan-india {
+        grid-column: span 2;
+    }
+
+    #folk {
+        grid-column: span 2;
+    }
+
+    .timelesstrends-grid-item {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .timelesstrends-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .timelesstrends-grid-item {
+        grid-column: span 1;
+        height: 120px;
+    }
+
+    .timelesstrends-overlay {
+        font-size: 0.9em;
+    }
+}
+ 
+ 
+ 

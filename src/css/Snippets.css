@@ -1,0 +1,13 @@
+
+  
+  .story-card {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust width as needed */
+    margin-right: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+ 

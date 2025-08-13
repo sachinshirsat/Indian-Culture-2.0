@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue');
+
+.music-parent-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.music-banner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+    /* filter: brightness(0.5); */
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+    .music-banner {
+        flex: 100%;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .music-banner {
+        flex: 100%;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .music-banner {
+        flex: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .music-banner {
+        flex: 100%;
+        height: 200px;
+    }
+}
+
+.foodnculban-text {
+    position: absolute;
+    width: 500px;
+    top: 0;
+    color: #FFF;
+    text-align: center;
+    /* font-family: Samarkan; */
+    font-family: 'Croissant One', cursive;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+/* Partners caption */
+.music-header {
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+.music-header h1 {
+    margin: 0;
+    font-size: 32px;
+    /* line-height: 60px; */
+
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    /* margin-top: 20px; */
+
+}
+
+.music-card-2 {
+    /* max-width: 300px; */
+    /* width: 240px;
+      height: 400px; */
+    width: 310px;
+    height: 498px;
+    background-color: #363636;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+
+/* .profile-card-2 img {
+      transition: all linear 0.25s;
+      
+  } */
+
+.music-card-2 .music-name {
+    position: absolute;
+    /* left: 65px;
+      top: 200px; */
+    font-size: 24px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    color: #FFF;
+    letter-spacing: 1.2px;
+    text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.5);
+    /* transition: all linear 0.25s; */
+}
+
+
+.music-card-2 .music-icons {
+    position: absolute;
+    border-radius: 1px;
+    border-style: solid;
+    /* border-width: medium; */
+    font-size: 18px;
+    bottom: 65px;
+    right: 85px;
+    color: #FFF;
+    width: 133px;
+    height: 41px;
+    /* transition: all linear 0.25s; */
+}
+
+.music-cover p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
+/* slick custom css */
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 45px !important;
+    line-height: 1;
+
+    opacity: .75;
+    color: #151515 !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* changes made here if categories and childrens section is not working properly then instead of 'padding: 0' add padding:30px */
+.slick-list {
+    padding: 0px !important;
+}
+
+
+.slick-track {
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 6px !important;
+    z-index: 1;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: '←';
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '→';
+}
+
+.slick-next {
+    right: 30px !important;
+    z-index: 1;
+
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: '→';
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '←';
+}
+
+/* @media only screen and (max-width: 480px) {
+    .slick-slider {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .slick-list {
+        width: 100%;
+    }
+
+
+} */
+
+/*Explore btn*/
+.music-btn {
+
+    border-radius: 40px;
+    /* background-color: #8b2266; */
+    /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+    /* background: linear-gradient(to right, #912569 0%, #d34156 100%); */
+    background: #d34156;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    width: 180px;
+    height: 42px;
+    /* transition: all 0.3s; */
+
+    cursor: pointer;
+    left: 0%;
+    margin-top: 20px;
+    /* box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%) */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    ;
+}
+
+.music-btn:hover {
+
+    border-radius: 40px;
+    /* background-color: #8b2266; */
+    /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+    background: #d34156;
+
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    width: 180px;
+    height: 42px;
+    /* transition: all 0.3s; */
+    cursor: pointer;
+    margin-left: 0%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 25%), 1px 1px 8px rgb(0 0 0 / 22%)
+}
+
+.music-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.music-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.music-btn:hover span {
+    padding-right: 25px;
+}
+
+.music-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.music-center {
+    text-align: center;
+    margin-bottom: 50px;
+}

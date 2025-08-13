@@ -2,15 +2,15 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
-import './TodayinHistory.css';
-
-
-import Flag from '../image/Ellipse 13.png';
+import Flag from '../image/Ellipse 13.webp';
 import SwrilDivider from './SwrilDivider';
 
 function TodayinHistory() {
+    const todayhistory = () => {
+        window.open('/ltwotodayinhistory', '_parent');
+      };  
     return (
         <>
         <Container className='todayhistoryheader' style={{width:'100%', maxWidth: '1440px', margin:'0 auto'}}>
@@ -37,7 +37,7 @@ function TodayinHistory() {
                         Kashi, its ancient name, was associated with a kingdom of the same name of 2,500 years ago.
                         The Buddha is recorded in the Pali canon to have given his first sermon,
                         "The Setting in Motion of the Wheel of Dharma", at nearby Sarnath in 528 BCE.</p>
-                        <button class=" todayhistorybtn" ><span>Read More </span></button>
+                        <button class=" todayhistorybtn" onClick={todayhistory}><span>Read More </span></button>
 
                 </Col>
 

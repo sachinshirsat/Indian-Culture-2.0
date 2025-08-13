@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+
+.cavecampaka-parent-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+/* Partners caption */
+.cavecampaka-header {
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+.cavecampaka-header h1 {
+    margin: 0;
+    font-size: 32px;
+    /* line-height: 60px; */
+
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    /* margin-top: 20px; */
+
+}
+
+.cavecampaka-cover p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.cavecampaka-banner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+    /* filter: brightness(0.5); */
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+    .cavecampaka-banner {
+        flex: 100%;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .cavecampaka-banner {
+        flex: 100%;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .cavecampaka-banner {
+        flex: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .cavecampaka-banner {
+        flex: 100%;
+        height: 200px;
+    }
+}
+
+ 
+ 
+
+.cavecampaka-slider-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#slider {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* new css for slider range start */
+/* Container for the slider */
+.cavecampaka-slider-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Slider styling */
+  .cavecampaka-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(90deg, #ff8a65, #ffb74d, #4db6ac);
+    outline: none;
+    opacity: 0.9;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .cavecampaka-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background-color: #ff5722;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cavecampaka-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background-color: #ff5722;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cavecampaka-slider:hover {
+    opacity: 1;
+  }
+  
+  .cavecampaka-slider::-webkit-slider-thumb:hover,
+  .cavecampaka-slider::-moz-range-thumb:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Labels styling */
+  .cavecampaka-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .cavecampaka-value-output {
+    font-size: 14px;
+    color: #616161;
+    font-weight: 500;
+    padding: 5px;
+  }
+  
+  .cavecampaka-value-output:first-child {
+    margin-left: 0;
+  }
+  
+  .cavecampaka-value-output:last-child {
+    margin-right: 0;
+  }
+  
+
+/* new css for slider range end */
+
+/* .image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} */
+
+
+/* BAnner image for swiper */
+/* .labels {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 80vw;
+    position: relative;
+   
+} */
+
+.cavecampaka-value-output {
+    /* margin-top: 15px; */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    
+
+}
+
+.cavecampaka-value-output.from:before {
+    content: 'From: ';
+}
+
+.cavecampaka-value-output.to:before {
+    content: 'To: ';
+}

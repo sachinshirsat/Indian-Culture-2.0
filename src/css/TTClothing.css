@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+
+.ttcloth-parent-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+/* Partners caption */
+.ttcloth-header {
+    text-align: center;
+    /* margin-top: 60px !important; */
+}
+
+.ttcloth-header h1 {
+    margin: 0;
+    font-size: 32px;
+    /* line-height: 60px; */
+
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.ttcloth-banner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+    /* filter: brightness(0.5); */
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+    .ttcloth-banner {
+        flex: 100%;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .ttcloth-banner {
+        flex: 100%;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .ttcloth-banner {
+        flex: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .ttcloth-banner {
+        flex: 100%;
+        height: 200px;
+    }
+}
+
+.ttcloth-cover p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+ 
+ 
+ 
+.ttcloth-card-2 {
+    /* max-width: 300px; */
+    /* width: 240px;
+      height: 400px; */
+    width: 310px;
+    height: 498px;
+    background-color: #363636;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+
+/* .profile-card-2 img {
+      transition: all linear 0.25s;
+      
+  } */
+
+.ttcloth-card-2 .ttcloth-name {
+    position: absolute;
+    /* left: 65px;
+      top: 200px; */
+    font-size: 24px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    color: #FFF;
+    letter-spacing: 1.2px;
+    text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.5);
+    /* transition: all linear 0.25s; */
+}
+
+
+.ttcloth-card-2 .ttcloth-icons {
+    position: absolute;
+    border-radius: 1px;
+    border-style: solid;
+    /* border-width: medium; */
+    font-size: 18px;
+    bottom: 65px;
+    right: 85px;
+    color: #FFF;
+    width: 133px;
+    height: 41px;
+    /* transition: all linear 0.25s; */
+}
+
+.ttcloth-icons:hover {
+    /* right: 40px; */
+    color: rgb(255, 255, 255) !important;
+    background: #344c6d !important;
+    border-color: #344c6d !important;
+    cursor: pointer;
+
+}
+
+ 
+ 
+.ttclothing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three equal columns */
+    grid-gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.ttcloth-timeline-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ttcloth-timeline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+
+}
+
+.ttcloth-timeline:before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    /* Place the timeline below the circles */
+    left: 0;
+    right: 0;
+    height: 25px;
+    /* Increased thickness of the timeline */
+    /* background: linear-gradient(to right, #f8b63e 25%, #f36d6f 25%, #f36d6f 50%, #b94274 50%, #b94274 75%, #942342 75%); */
+    background: linear-gradient(to right, #ffd84b 25%, #ffaa20 25%, #ffaa20 50%, #ff4717 50%, #ff4717 75%, #d81a6c 75%);
+
+    /* Four-color gradient */
+    z-index: 0;
+}
+
+.ttcloth-timeline-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.ttcloth-timeline-event:hover .ttcloth-circle {
+    transform: scale(1.05);
+    /* Slight scale effect on hover for visual feedback */
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ttcloth-timeline-event:hover .ttcloth-date {
+    color: #000;
+    /* Optional: Make the date text darker on hover */
+}
+
+.ttcloth-timeline a {
+    text-decoration: none;
+    /* No text decoration */
+    color: inherit;
+    /* Maintain inherited text color */
+}
+
+.ttcloth-circle {
+    width: 250px;
+    /* Circle size */
+    height: 250px;
+    /* Circle size */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Bebas Neue;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    color: #333;
+    /* Dark text color for contrast */
+    background-color: white;
+    /* White circle background */
+    border: 15px solid;
+    /* Border will be different for each circle */
+    position: relative;
+    top: 0px;
+    /* Adjusted shift for large screens */
+    cursor: pointer;
+    /* Cursor changes to pointer to indicate clickable */
+}
+
+/* New Date Style Without Circle */
+.ttcloth-timeline-date {
+    position: absolute;
+    top: 110%;
+    /* Position the date below the timeline */
+    left: 65%;
+    /* Adjust position where #d81a6c color is located */
+    transform: translateX(-50%);
+}
+
+.ttcloth-no-circle {
+    font-size: 18px;
+    color: #555;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+/* Hover Effect */
+.ttcloth-circle:hover {
+    background-color: #f1f1f1;
+    /* Optional: Slight background change on hover */
+}
+
+.ttcloth-ancient {
+    border-color: #ffd04b;
+    /* Yellow for ancient */
+}
+
+.ttcloth-medieval {
+    border-color: #fc4509;
+    /* Orange for medieval */
+}
+
+.ttcloth-colonial {
+    border-color: #cf2269;
+    /* Purple for colonial */
+}
+
+.ttcloth-independence {
+    border-color: #942342;
+    /* Dark pink for independence */
+}
+
+.ttcloth-date {
+    font-size: 18px;
+    color: #555;
+    font-family: Open Sans;
+    font-weight: 400;
+
+    margin-top: 15px;
+    position: relative;
+    top: 50px;
+    /* Position the date below the timeline */
+    /* left: -100px; */
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .ttcloth-timeline {
+        flex-direction: column;
+    }
+
+    .ttcloth-timeline:before {
+        height: 0;
+        width: 6px;
+        top: 0;
+        left: 50%;
+        right: auto;
+        bottom: 0;
+    }
+
+    .ttcloth-timeline-event {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .ttcloth-circle {
+        width: 200px;
+        height: 200px;
+        top: -20px;
+        /* Shift circles less for mobile */
+    }
+
+    .ttcloth-date {
+        display: none;
+    }
+}
+
+ 
+ 
+ 
+ 
+ 
+.ttcloth-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.ttcloth-image-item {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    /* Limit the max width to 450px */
+    margin-bottom: 20px;
+
+}
+
+.ttcloth-image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ttcloth-caption {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 1rem;
+    color: #333;
+    /* Customize text color */
+}
+
+/* Media Queries for different screen sizes */
+@media (min-width: 768px) {
+    .ttcloth-image-item {
+        width: 48%;
+        /* Take up roughly half the container on larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .ttcloth-image-item {
+        width: 45%;
+        /* Adjust width slightly for wider screens */
+    }
+}
+
+ 
+/* 250 */
+.ttcloth-bg-color {
+    background-color: #000;
+}
+
+.ttcloth-head-color {
+    color: #fff;
+}
+
+.ttcloth-image-item1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.ttcloth-image-item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.ttcloth-caption1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, -0.9));
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+/* Responsive layout */
+@media (max-width: 576px) {
+    .ttcloth-image-item1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+ 
+/*Explore btn*/
+.ttcloth-catabtn {
+
+    border-radius: 40px !important;
+    /* background-color: #8b2266; */
+    /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+    background: #d34156 !important;
+
+    border: 1px solid #d34156 !important;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    width: 140px;
+    height: 42px;
+    /* transition: all 0.3s; */
+    cursor: pointer;
+    margin-left: 0%;
+    margin-top: 1em;
+    margin-bottom: 30px;
+    /* box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%) */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.ttcloth-catabtn:hover {
+
+    border-radius: 40px;
+    /* background-color: #8b2266; */
+    /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+    background: #d34156 !important;
+
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    width: 140px;
+    height: 42px;
+    /* transition: all 0.3s; */
+    cursor: pointer;
+    margin-left: 0%;
+    margin-top: 1em;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 25%), 1px 1px 8px rgb(0 0 0 / 22%)
+}
+
+.ttcloth-catabtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.ttcloth-catabtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.ttcloth-catabtn:hover span {
+    padding-right: 25px;
+}
+
+.ttcloth-catabtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.ttcloth-catacenter {
+    text-align: center;
+}

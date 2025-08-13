@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+
+.jnfamgem-parent-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.jnfamgem-header {
+
+    text-align: center;
+    margin-top: 60px !important;
+
+}
+ 
+.jnfamgem-header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Bebas Neue;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+
+}
+
+ 
+.jnfamgem-header h2 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: justify;
+    text-align: center;
+}
+
+ 
+.jnfamgem-header p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+
+}
+
+.jnfamgem-banner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  
+    /* filter: brightness(0.5); */
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+  
+  }
+  
+  @media (max-width: 1024px) {
+    .jnfamgem-banner {
+      flex: 100%;
+      height: 500px;
+    }
+  
+  }
+  
+  @media (max-width: 800px) {
+    .jnfamgem-banner {
+      flex: 100%;
+      height: 400px;
+    }
+  
+  }
+  
+  @media (max-width: 600px) {
+    .jnfamgem-banner {
+      flex: 100%;
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .jnfamgem-banner {
+      flex: 100%;
+      height: 200px;
+    }
+  }
+
+  
+ 
+.jnfamgem-img {
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-top: 10px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%);
+
+}
+
+.jnfamgem-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+  }
+  
+  .jnfamgem-img:hover img{
+    transform: scale(1.2);
+    
+  }
+  .justify-content-center{
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+.jnfamgem-header h1 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+
+    font-family: Bebas Neue;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+
+
+}
+
+ 
+.jnfamgem-header h2 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: justify;
+    text-align: center;
+    
+}
+ 
+.jnfamgem-header h3 {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: justify;
+    text-align: center;
+}
+
+ 
+.jnfamgem-header p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+
+}
+
+  
+  
+  
+ .jnfamgem-header {
+
+    text-align: center;
+    margin-top: 60px !important;
+
+}
+
+ 
+/* .didyouimg {
+    border-radius: 100%;
+    width: 340px;
+    height: 340px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%);
+  
+} */
+/* zoom effect */
+.jnfamgem-img {
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-top: 10px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%)
+  }
+  
+  .jnfamgem-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+  }
+  
+  .jnfamgem-img:hover img {
+    transform: scale(1.2);
+    
+  }
+  .justify-content-center{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 480px){
+    #did{
+        order: 1;
+    }
+  }
+
+
+  
+
+
+ 
+ 

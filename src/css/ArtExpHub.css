@@ -1,0 +1,136 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+} */
+
+.retriv-art-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 0;
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.retriv-art-grid-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#tribal {
+    background-image: url('../image/hubimg1.png');
+    grid-column: span 2;
+    height: 291px;
+}
+
+#fairs {
+    background-image: url('../image/hubimg2.png ');
+    grid-column: span 2;
+    height: 291px;
+}
+
+#pan-india {
+    background-image: url('../image/hubimg3.png');
+
+    grid-column: span 3;
+    height: 291px;
+}
+
+#folk {
+    background-image: url('../image/hubimg4.png');
+
+    grid-column: span 1;
+    height: 291px;
+}
+
+.retriv-art-overlay {
+    position: absolute;
+    bottom: 0;
+    /* background: rgba(10, 0, 0, 0.5); */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(29, 29, 29, 0.4482) 32.81%, rgba(28, 28, 28, 0.7636) 64.06%, rgba(0, 0, 0, 0.83) 100%);;
+
+    color: #fff;
+    width: 100%;
+   
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .retriv-art-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #tribal {
+        grid-column: span 2;
+    }
+
+    #fairs {
+        grid-column: span 2;
+    }
+
+    #pan-india {
+        grid-column: span 2;
+    }
+
+    #folk {
+        grid-column: span 2;
+    }
+
+    .retriv-art-grid-item {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .retriv-art-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #tribal {
+        grid-column: span 2;
+    }
+
+    #fairs {
+        grid-column: span 2;
+    }
+
+    #pan-india {
+        grid-column: span 2;
+    }
+
+    #folk {
+        grid-column: span 2;
+    }
+
+    .retriv-art-grid-item {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .retriv-art-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .retriv-art-grid-item {
+        grid-column: span 1;
+        height: 120px;
+    }
+
+    .retriv-art-overlay {
+        font-size: 0.9em;
+    }
+}

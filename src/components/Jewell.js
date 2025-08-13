@@ -1,17 +1,19 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Flag from '../image/Ellipse 14.png';
-import './Jewell.css';
+import Flag from '../image/Ellipse 14.webp'; 
 import SwrilDivider from './SwrilDivider';
 
 function Jewell() {
+    const jewellerofynizam = () => {
+        window.open('/jewellerofynizam', '_parent');
+      };  
     return (
         <>
-        <Container className='jewellheader'>
+        <Container className='jewellheader' style={{width:'100%', maxWidth: '1440px', margin:'0 auto'}}>
             <Row className="justify-content-md-center">
                 <Col xs lg="6" id='jewell'>
                     <h1>Jewellery of the Nizams</h1>
-                    <button className=" jewellbtn" ><span>Explore</span></button>
+                    <button className=" jewellbtn" onClick={jewellerofynizam}><span>Explore</span></button>
 
                 </Col>
                 <Col xs lg="4" className='justify-content-center'>

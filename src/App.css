@@ -1,6 +1,227 @@
+@import url('css/Catagories.css');
+@import url('css/ChildrenSec.css');
+@import url('css/DidYouKnow.css');
+@import url('css/Crossfade.css');
+@import url('css/Dark.css');
+@import url('css/ExternalLinks.css');
+@import url('css/Footer.css');
+@import url('css/FreedomArc.css');
+@import url('css/HomeGallery.css');
+@import url('css/Jewell.css');
+@import url('css/Light.css');
+@import url('css/Moc.css');
+@import url('css/Partners.css');
+@import url('css/Rarebook.css');
+@import url('css/SlickCustom.css');
+@import url('css/Storypage.css');
+@import url('css/TodayinHistory.css');
+@import url('css/TopNavbar.css');
+@import url('css/VirtualWalk.css');
+@import url('css/UnderConst.css');
+@import url('css/AllCategories.css');
+@import url('css/FreedomArchive.css');
+@import url('css/LtwoDidYouKnow.css');
+@import url('css/Menubar.css');
+@import url('css/LtwoTodayinHistory.css');
+@import url('css/ArcListpage.css');
+@import url('css/ArcListResultpage.css');
+
+@import url('css/JewelleryOfNizam.css');
+@import url('css/JNHistory.css');
+@import url('css/JNMonuments.css');
+@import url('css/JNTerritories.css');
+@import url('css/JNOrigin.css');
+@import url('css/JNSalarJungs.css');
+@import url('css/JNKeyPersonalities.css');
+@import url('css/JNEconomy.css');
+@import url('css/JNExtentofWealth.css');
+@import url('css/JNEcoCrisis.css');
+@import url('css/JNSourcesofWealth.css');
+@import url('css/JNSociety.css');
+@import url('css/JNDiversity.css');
+@import url('css/JNCuisine.css');
+@import url('css/JNJewels.css');
+@import url('css/JNFamousGems.css');
+@import url('css/JNDesignVocabulary.css');
+@import url('css/JNType.css');
+@import url('css/JNGems.css');
+@import url('css/JNAquisitions.css');
+@import url('css/JNAnecdotes.css');
+@import url('css/JNNizamNecklace.css');
+@import url('css/JNStolenTiffin.css');
+@import url('css/JNKulcha.css');
+@import url('css/JNMarriageAlliances.css');
+@import url('css/JNPrincesses.css');
+@import url('css/JNDurrushehvar.css');
+@import url('css/JNNiloufer.css');
+@import url('css/JNEsra.css');
+
+@import url('css/RetrievedArtefacts.css');
+@import url('css/RetrvdArtSlickCust.css');
+@import url('css/ArtExpHub.css');
+@import url('css/ArtefactsMore.css');
+@import url('css/ArtefactsResultpage.css');
+@import url('css/ReclaimedRelics.css');
+@import url('css/RecRelResultpage.css');
+@import url('css/BooksIconography.css');
+
+
+@import url('css/JNResultpage.css');
+
+@import url('css/FortsOfIndia.css');
+@import url('css/UnderstandingForts.css');
+@import url('css/FeaturesForts.css');
+@import url('css/FeatureDetails.css');
+@import url('css/TypesOfForts.css');
+@import url('css/FortHistory.css');
+@import url('css/FortHistoryResultpage.css');
+@import url('css/FortsOfIndiaListpage.css');
+@import url('css/FortsOfIndiaResultpage.css');
+@import url('css/FortsFreedom.css');
+@import url('css/FortsFreedomResultpage.css');
+@import url('css/DDR.css');
+@import url('css/IndiaMap.css');
+@import url('css/DDRListingpage.css');
+@import url('css/DDRResultpage.css');
+@import url('css/PdftoImage.css');
+@import url('css/Flip.scss');
+@import url('css/Menubarr.css');
+
+@import url('css/MusicalInstrument.css');
+@import url('css/MusicalListingpage.css');
+@import url('css/MusicalResult.css');
+@import url('css/MusicalResultpage.css');
+
+@import url('css/FlagshipEvent.css');
+@import url('css/FestofLib.css');
+@import url('css/FlagEvenResultpage.css');
+
+@import url('css/FestivalsOfIndia.css');
+@import url('css/FIPanIndia.css');
+@import url('css/FIBuddhaPurnima.css');
+@import url('css/FICulinaryTraditions.css');
+@import url('css/FIPerformativeTraditions.css');
+@import url('css/FIMythsLegends.css');
+@import url('css/FIFolkFestivals.css');
+@import url('css/FICelebratingNature.css');
+@import url('css/FIGudiPadwa.css');
+@import url('css/FIDiscoverCulTrad.css');
+@import url('css/FIDiscoverMythLeg.css');
+@import url('css/FITribalFestivals.css');
+@import url('css/FIWorshipingNature.css');
+@import url('css/FIShadSukMynsiem.css');
+@import url('css/FIFairsPilgrimages.css');
+@import url('css/FIFairs.css');
+@import url('css/FIMallinath.css');
+@import url('css/FIMallinathCulTrad.css');
+@import url('css/FIMallinathMythLeg.css');
+
+@import url('css/NorthEastArchive.css');
+@import url('css/NEAState.css');
+@import url('css/VertiAccor.css');
+@import url('css/NEABuildHeritage.css');
+@import url('css/NEASnapshots.css');
+@import url('css/NEASnapshotResultpage.css');
+@import url('css/NEAShillong.css');
+@import url('css/NEAShillongResultpage.css');
+@import url('css/NEABuiltHerResultpage.css');
+
+@import url('css/TimelessTrends.css');
+@import url('css/TTClothing.css');
+@import url('css/TTDigiCateList.css');
+@import url('css/TTDigiCatelogue.css');
+@import url('css/TTReadingList.css');
+@import url('css/TTVideoStories.css');
+@import url('css/TTPhotoEssays.css');
+@import url('css/TTSnippets.css');
+@import url('css/TTAncientTimeline.css');
+@import url('css/TTAncientHistoryResultpage.css');
+@import url('css/TTMedievalHistoryResultpage.css');
+@import url('css/TTColonialHistoryResultpage.css');
+@import url('css/TTVideoResultpage.css');
+
+@import url('css/Ajanta.css');
+@import url('css/Caves.css');
+@import url('css/EarlyCaves.css');
+@import url('css/LaterCaves.css');
+@import url('css/Caves9.css');
+@import url('css/ACPaintings.css');
+@import url('css/Cave1Campaka.css');
+
+@import url('css/PhotoEassy.css');
+@import url('css/PhotoEassyResultpage.css');
+
+@import url('css/HistoricCities.css');
+@import url('css/HistoricStates.css');
+@import url('css/MangoesofLucknow.css');
+@import url('css/ReadLucknow.css');
+@import url('css/RiverGomti.css');
+@import url('css/HCDelhiHome.css');
+@import url('css/HCCentralDelhi.css');
+
+@import url('css/FoodnCulture.css');
+@import url('css/FoodnCultureResultpage.css');
+@import url('css/CuisinesofIndia.css');
+@import url('css/FCCuisineListpage.css');
+@import url('css/FCCuisineResultpage.css');
+@import url('css/TimelessRecipes.css');
+@import url('css/MainCourselistpage.css');
+@import url('css/FCMainCourseResultpage.css');
+@import url('css/HerbsnSpicelistpage.css');
+@import url('css/FCHerbsnSpiceResultpage.css');
+@import url('css/Foodlistpage.css');
+@import url('css/FCFoodImagesResultpage.css');
+@import url('css/FoodnFestivals.css');
+@import url('css/FCFoodFestivalsResultpage.css');
+
+@import url('css/TextilenFabric.css');
+@import url('css/TextileMuseum.css');
+@import url('css/MuseumListpage.css');
+@import url('css/MuseumResultpage.css');
+@import url('css/TxtileTrade.css');
+@import url('css/TxtileColonialPeriod.css');
+@import url('css/TypesofTextiles.css');
+@import url('css/TxtilePainting.css');
+@import url('css/TxtilePaintingResultpage.css');
+@import url('css/TxtileManufacturing.css');
+@import url('css/TxtileWeavingListpage.css');
+@import url('css/TxtileWeavingResultpage.css');
+@import url('css/TxtileArtisans.css');
+@import url('css/TxtileNissarAli.css');
+@import url('css/TxtileArtifacts.css');
+@import url('css/TxtileArtifactsResultpage.css');
+@import url('css/TextileTales.css');
+@import url('css/TxtileFreedomMovement.css');
+@import url('css/TxtileFreedomMoveResultpage.css');
+@import url('css/TxtileHistory.css');
+@import url('css/TxtileHistoryAncient.css');
+@import url('css/TxtileHistoryAncientResult.css');
+
+@import url('css/PhotoArchiveListResultpage.css');
+@import url('css/Skeleton.css');
+
+@import url('css/Snippets.css');
+/* @import url('css/VideosListpage.css'); */
+
+@import url('css/PaintingCollections.css');
+
+
+
+body{
+  background-color: #ffffff !important;
+  /* font-size: clamp(30px, 4vw, 60px); */
+}
+
+/* #maincontent{
+  width:100%;
+    max-width:1440px;
+     margin: 0 auto;
+} */
+    /* style={{width:'100%', maxWidth: '1440px', margin:'0 auto'}} */
+
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
 }
 
 /* Track */
@@ -8,17 +229,21 @@
   box-shadow: inset 0 0 5px rgb(12, 12, 12);
   border-radius: 20px;
 }
-
+.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: 300px !important;
+}
+.react-pdf__Page__annotations{display: none;}
+.react-pdf__Page__textContent{display: none;}
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(90deg, #8A216B 0%, #D94453 100%);
-  ;
   border-radius: 20px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #D94453;
+  background: solid #D94453;
 }
 
 /* back to top btn */
@@ -27,8 +252,8 @@
   bottom: 30px;
   right: 30px;
   /* background-color: #444; */
-  background: linear-gradient(90deg, #8A216B 0%, #D94453 100%);
-  color: #fff;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  color: #000000;
   padding: 10px 15px;
   width: 50px;
   height: 50px;
@@ -42,10 +267,11 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background: #D94453;
-  color: #000000;
+  background: #000000;
+  color: #ffffff;
   padding: 10px 15px;
-  border: 1 #000000;
+  border: 1 #ffffff;
+  /* transition: 0.5s; */
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -57,3 +283,5 @@
   display:none;
 }
 }
+
+/*  */

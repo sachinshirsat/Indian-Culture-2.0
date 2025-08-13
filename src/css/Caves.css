@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+
+.ajanta-caves-parent-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+/* Partners caption */
+.ajanta-caves-header {
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+.ajanta-caves-header h1 {
+    margin: 0;
+    font-size: 32px;
+    /* line-height: 60px; */
+
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    /* margin-top: 20px; */
+
+}
+
+.ajanta-caves-cover p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.ajanta-caves-banner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+    /* filter: brightness(0.5); */
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+    .ajanta-caves-banner {
+        flex: 100%;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .ajanta-caves-banner {
+        flex: 100%;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .ajanta-caves-banner {
+        flex: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .ajanta-caves-banner {
+        flex: 100%;
+        height: 200px;
+    }
+}
+
+ 
+ 
+.ajanta-caves-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    /* padding: 10px; */
+}
+
+.ajanta-caves-image-item {
+    position: relative;
+    width: 100%;
+    max-width: 450px; /* Limit the max width to 450px */
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.ajanta-caves-image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ajanta-caves-caption {
+    text-align: left;
+    /* padding-top: 10px; */
+    font-size: 1rem;
+    color: #333; /* Customize text color */
+}
+
+/* Media Queries for different screen sizes */
+@media (min-width: 768px) {
+    .ajanta-caves-image-item {
+        width: 48%; /* Take up roughly half the container on larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .ajanta-caves-image-item {
+        width: 45%; /* Adjust width slightly for wider screens */
+    }
+}

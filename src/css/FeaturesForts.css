@@ -1,0 +1,58 @@
+
+
+  /* Create a container for the thumbnails */
+  .features-thumbnail-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    
+
+  }
+
+  /* Individual thumbnail style */
+  .features-thumbnail {
+    text-align: center;
+    margin: 10px; /* Optional: Add some spacing between thumbnails */
+   
+  }
+
+   /* Apply zoom-in effect on image hover */
+   .features-thumbnail-image-container:hover .features-thumbnail-image {
+    transform: scale(1.2); /* Increase scale on hover (zoom in) */
+  }
+
+   /* Style the image container */
+   .features-thumbnail-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 310px; /* Adjust the width and height as needed */
+    height: 310px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow */
+    cursor: pointer;
+  }
+  
+  /* Style the image as a round thumbnail */
+  .features-thumbnail-image {
+    border-radius: 50%;
+    width: 310px; /* Adjust the width and height as needed */
+    height: 310px;
+    object-fit: cover; /* This maintains the aspect ratio of the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease;
+
+  }
+  
+  /* Style the title */
+  .features-thumbnail-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+   /* Media query for responsive design */
+   @media only screen and (max-width: 768px) {
+    .features-thumbnail-container {
+      flex-wrap: wrap; 
+      justify-content: center; 
+    }
+  }

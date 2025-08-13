@@ -1,6 +1,4 @@
 import React from 'react';
-import './Catagories.css';
-
 import Container from 'react-bootstrap/Container';
 /* import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; */
@@ -21,8 +19,10 @@ import SwrilDivider from './SwrilDivider';
 function Catagories() {
     // Glider Configuration
 
-
-
+    /* const arclistpage = () => {
+        window.open('/arclistpage', '_parent');
+    };
+ */
     return (
         <>
 
@@ -39,7 +39,7 @@ function Catagories() {
             <Container fluid className='cataparent'>
                 <Row>
                     <Col>
-                        <a href=" " className="catacard archive">
+                        <a href="" className="catacard archive" >
                             <div className="overlay"></div>
                             <div className="circle">
                                 {/* img file */}
@@ -47,7 +47,7 @@ function Catagories() {
 
 
                             </div>
-                            <p>Archive</p>
+                            <p>aArchive</p>
                         </a>
                     </Col>
                     <Col>

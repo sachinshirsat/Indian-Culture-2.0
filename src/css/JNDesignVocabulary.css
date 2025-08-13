@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+
+.jndesign-parent-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.jndesign-header {
+
+    text-align: center;
+    margin-top: 60px !important;
+
+}
+
+ 
+.jndesign-header h1 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 40px;
+
+  font-family: Bebas Neue;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+
+
+}
+ 
+.jndesign-header p {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: justify;
+
+}
+
+.jndesign-banner {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+
+  /* filter: brightness(0.5); */
+  display: flex;
+  /* box-shadow: 2px 4px 10px #000; */
+  margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+  .jndesign-banner {
+    flex: 100%;
+    height: 500px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .jndesign-banner {
+    flex: 100%;
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .jndesign-banner {
+    flex: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .jndesign-banner {
+    flex: 100%;
+    height: 200px;
+  }
+}
+
+
+ 
+.jndesign-img {
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-top: 10px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%);
+
+}
+
+.jndesign-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+  }
+  
+  .jndesign-img:hover img{
+    transform: scale(1.2);
+    
+  }
+  .justify-content-center{
+    display: flex;
+    justify-content: center;
+  }
+
+

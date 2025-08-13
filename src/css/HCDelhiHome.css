@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+.hc-delhi-parent-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.hc-delhi-banner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+
+    /* filter: brightness(0.5); */
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+    .hc-delhi-banner {
+        flex: 100%;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .hc-delhi-banner {
+        flex: 100%;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .hc-delhi-banner {
+        flex: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .hc-delhi-banner {
+        flex: 100%;
+        height: 200px;
+    }
+}
+
+.hc-delhi-header {
+    text-align: center;
+    margin-top: 10px !important;
+
+
+}
+
+.hc-delhi-header h1 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 60px;
+
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+
+
+}
+
+.hc-delhi-cover p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 30px !important;
+    color: #000000;
+
+
+}
+
+ 
+/* Positioning for the Swiper Slide content */
+/* .slide-content {
+    position: relative;
+}
+
+.slide-content img {
+    width: 100%;
+    height: auto;
+} */
+
+/* Caption styling */
+.hc-delhi-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, -0.2));
+    color: white;
+    
+    padding: 10px;
+    font-size: 1.2rem;
+   
+    box-sizing: border-box;
+
+    font-family: Bebas Neue;
+    /* font-size: 24px; */
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.2em;
+    text-align: center;
+
+}
+
+ 
+ 
+
+    /* Container for thumbnail with caption overlay */
+    .hc-delhi-thumbnail-container {
+        position: relative;
+        width: 332px;
+        height: 194px;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+
+    /* Image styling */
+    .hc-delhi-thumbnail-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+
+    /* Caption styling */
+   /*  .thumbnail-container .caption {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    } */
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .hc-delhi-thumbnail-container {
+            width: 90%;
+            height: auto;
+        }
+    }

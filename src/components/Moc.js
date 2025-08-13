@@ -10,28 +10,25 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 // import SwrilDivider from '../image/SwrilDivider.png';
 
 // import Morg1 from '../image/m1.jpg';
-import Morg2 from '../image/m2.jpg';
-import Morg3 from '../image/m3.png';
-import Morg4 from '../image/m4.jpg';
+import Morg2 from '../image/m2.webp';
+import Morg3 from '../image/m3.webp';
+import Morg4 from '../image/m4.webp';
 import SwrilDivider from './SwrilDivider';
 
 
 // Glider.js
 import "glider-js/glider.min.css";
-import Glider1 from "glider-js";
-
-import './Moc.css';
+import Glider1 from "glider-js"; 
 
 function Moc() {
     useEffect(() => {
+        // querySelector
         new Glider1(document.querySelector('.glider1'), {
             slidesToShow: 1.1,
             slidesToScroll: 1,
             draggable: true,
             dots: '.dots',
-           
-           
-          
+         
             responsive: [
                 {
                     breakpoint: 768,
@@ -104,9 +101,15 @@ function Moc() {
                     </div>
                 </div>
                 <span role="button" aria-label="Previous" className="glider-prev"><FontAwesomeIcon icon={faChevronLeft} style={{ marginLeft: '14px' }} /></span>
+
                 <span role="button" aria-label="Next" className="glider-next"><FontAwesomeIcon icon={faChevronRight} style={{ marginLeft: '14px' }} /></span>
 {/*                 <span role="tablist" className="dots"></span>
  */}            </div>
+  <div style={{display: "flex", justifyContent: "flex-end", padding: "10px", marginRight: "px", }} >
+            <a href="#" style={{ textDecoration: "none", color: "inherit" }}>
+              All Organisations
+            </a>
+          </div>
         </div>
     </main>
 </>

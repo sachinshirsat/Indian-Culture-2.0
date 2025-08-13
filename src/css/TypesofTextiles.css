@@ -1,0 +1,134 @@
+/* txtile-types-Grid styles */
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.destinations {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destinations .grid li {
+    height: 600px;
+    padding: 10px;
+    background-clip: content-box;
+    background-size: cover;
+}
+
+.destinations .grid li.xlarge {
+    flex-basis: 60%;
+}
+
+.destinations .grid li.large {
+    flex-basis: 40%;
+}
+
+.destinations .grid li.small {
+    flex-basis: 25%;
+}
+
+.destinations .grid li.med {
+    flex-basis: 35%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 900px) {
+    .destinations .grid li {
+        height: 150px;
+        padding: 5px;
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .destinations .grid li {
+        height: 300px;
+        padding: 5px;
+        background-position: center;
+    }
+
+    .destinations .grid li.xlarge {
+        flex-basis: 100%;
+    }
+
+    .destinations .grid li.large,
+    .destinations .grid li.med,
+    .destinations .grid li.small {
+        flex-basis: 100%;
+    }
+
+    /* .banner {
+        height: 300px;
+    } */
+}
+
+@media (max-width: 576px) {
+    .destinations .grid li {
+        height: 200px;
+    }
+
+   /*  .txtile-types-banner {
+        height: 200px;
+    } */
+}
+
+/* Banner styles */
+.txtile-types-parent-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.txtile-types-banner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: -16px;
+}
+
+/* Media queries for responsive banner height */
+@media (max-width: 1024px) {
+    .txtile-types-banner {
+        height: 500px;
+    }
+}
+
+@media (max-width: 800px) {
+    .txtile-types-banner {
+        height: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .txtile-types-banner {
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .txtile-types-banner {
+        height: 200px;
+    }
+}
+
+/* Header styles */
+.txtile-types-header {
+    text-align: center;
+}
+
+.txtile-types-header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    margin-top: 30px;
+}

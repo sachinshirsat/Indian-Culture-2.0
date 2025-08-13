@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+/* Header styles */
+.txtile-manufac-header {
+    text-align: center;
+}
+
+.txtile-manufac-header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: Bebas Neue !important;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+}
+ 
+ 
+ 
+/* Custom styles for text */
+.txtile-manufac-txt-custom-title{
+    font-size: 35px !important;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.txtile-manufac-text-custom-size {
+    font-size: 20px; /* Adjust the size as needed */
+    justify-content: center;
+}
+
+.txtile-manufac-text-custom-color {
+    color: #fcdd2f; /* Choose your preferred txtile-manufac-text color */
+    
+}
+
+/* Custom styles for carousel images */
+.txtile-manufac-carousel-image {
+    width: 100%;
+    height: 800px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure images cover the entire container while maintaining aspect ratio */
+}
+
+/* Custom styles for caption */
+.txtile-manufac-carousel-caption {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+    width: 100%;
+    left: 0% !important;
+    bottom: 0rem !important;
+    padding-top: 15.25rem !important;
+    /* padding-bottom: 5.25rem !important; */
+}
+
+
+/* Animation for carousel images */
+.txtile-manufac-carousel-image {
+    transition: transform 0.5s ease-in-out !important;
+    
+}
+
+.txtile-manufac-carousel-image:hover {
+    transform: scale(1.1); /* Example: Increase the size on hover */
+}
+
+.txtile-manufac-Manufacture-para {
+    margin-top: 0px;
+    /* margin-left: 150px; */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: justify;
+   /*  display:block;
+    align-items:center;
+    justify-content:center; */
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.txtile-manufac-listbtn {
+ margin-bottom: 20px !important;
+}
+

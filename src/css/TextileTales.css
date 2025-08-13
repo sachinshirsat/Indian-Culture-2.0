@@ -1,0 +1,98 @@
+/* Grid styles */
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+
+.destinations {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destinations .grid li {
+    height: 600px;
+    padding: 10px;
+    background-clip: content-box;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.destinations .grid li.xlarge {
+    flex-basis: 60%;
+}
+
+.destinations .grid li.large {
+    flex-basis: 40%;
+}
+
+.destinations .grid li.small {
+    flex-basis: 25%;
+}
+
+.destinations .grid li.med {
+    flex-basis: 35%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 900px) {
+    .destinations .grid li {
+        height: 150px;
+        padding: 5px;
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .destinations .grid li {
+        height: 300px;
+        padding: 5px;
+        background-position: center;
+    }
+
+    .destinations .grid li.xlarge {
+        flex-basis: 100%;
+    }
+
+    .destinations .grid li.large,
+    .destinations .grid li.med,
+    .destinations .grid li.small {
+        flex-basis: 100%;
+    }
+
+    .freebanner {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .destinations .grid li {
+        height: 200px;
+    }
+
+    .freebanner {
+        height: 200px;
+    }
+}
+
+/* Acrchive caption */
+.txtile-tales-header {
+    text-align: center;
+}
+
+.txtile-tales-header h1 {
+    
+
+    color: #000;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.4px;
+}

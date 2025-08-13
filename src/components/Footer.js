@@ -3,16 +3,15 @@ import { Col, Container, Row } from 'react-bootstrap';
 // bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css';
 // external css
-import './Footer.css';
-
+ 
 // import images from local system
-import QRCode from '../image/QRCode.PNG';
-import IncredibleIndia from '../image/150 years.png';
-import DigiIndia from '../image/Digital-India.png';
-import Logo1 from '../image/Incredible-India.png';
-import Gandhi from '../image/Ministry of culture.png';
-import Swachhbharat from '../image/Mygov.png';
-import Mygov from '../image/Swacch-Bharat.png';
+import QRCode from '../image/QRCode.webp';
+import IncredibleIndia from '../image/150 years.webp';
+import DigiIndia from '../image/Digital-India.webp';
+import Logo1 from '../image/Incredible-India.webp';
+import Gandhi from '../image/Ministry of culture.webp';
+import Swachhbharat from '../image/Mygov.webp';
+import Mygov from '../image/Swacch-Bharat.webp';
 import { Facebook, Instagram, Twitter, Linkedin } from 'react-feather';
 
 
@@ -27,7 +26,7 @@ function FooterSection() {
 
           <div className="footer-content pt-5 pb-5">
             <div className="row">
-              <div className="col-xl-4 col-lg-4 mb-50">
+              <div className="col-xl-5 col-lg-4  mb-50">
                 <div className="footer-widget">
                   <div className="footer-widget-heading">
                     <h3>INDIAN CULTURE 2.0</h3>
@@ -100,34 +99,22 @@ function FooterSection() {
         </div>
         <div className="copyright-area">
 
-          <Container style={{ paddingLeft: '40px' }} >
+          <Container   >
             <Row >
 
-              <Col >
-                <li><a href="https://gandhi.gov.in/" target='_blank' rel="noreferrer"><img src={IncredibleIndia} alt="IncredibleIndia" style={{ marginTop: '-10px', width: '90px', height: '60px', backgroundColor: 'transparent' }} /></a></li>
-              </Col>
-              <Col></Col>
-              <Col>
-                <li><a href="https://digitalindia.gov.in/" target='_blank' rel="noreferrer"><img src={DigiIndia} alt="DigiIndia" style={{ marginTop: '-20px', width: '110px', height: '70px', backgroundColor: 'transparent' }} /></a></li>
-              </Col>
-              <Col></Col>
-              <Col>
-                <li><a href="https://www.mygov.in/" target='_blank' rel="noreferrer"><img src={Swachhbharat} alt="Swachhbharat" style={{ width: '100px', height: '50px', backgroundColor: 'transparent' }} /></a></li>
-              </Col>
-              <Col></Col>
-              <Col>
-                <li><a href="https://swachhbharatmission.gov.in/SBMCMS/index.htm" target='_blank' rel="noreferrer"><img src={Mygov} alt="Swachhbharat" style={{ width: '120px', height: '50px', backgroundColor: 'transparent' }} /></a></li>
-              </Col>
-              <Col></Col>
-              <Col>
-                <li><a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html" target='_blank' rel="noreferrer"><img src={Logo1} alt="Logo1" style={{ width: '200px', height: '50px', backgroundColor: 'transparent' }} /></a></li>
-              </Col>
-              <Col></Col>
-              <Col>
-                <li><a href="https://www.indiaculture.nic.in/index.php" target='_blank' rel="noreferrer"><img src={Gandhi} alt="Gandhi" style={{ width: '200px', height: '50px', backgroundColor: 'transparent' }} /></a></li>
-              </Col>
-              <Col></Col>
-              <Col></Col>
+              <Col className='boxes '>
+                <li ><a href="https://gandhi.gov.in/" target='_blank' rel="noreferrer"><img src={IncredibleIndia} alt="IncredibleIndia" className='footericon1'  /></a></li>
+              
+                <li><a href="https://digitalindia.gov.in/" target='_blank' rel="noreferrer"><img src={DigiIndia} alt="DigiIndia" className='footericon2' /></a></li>
+             
+                <li><a href="https://www.mygov.in/" target='_blank' rel="noreferrer"><img src={Swachhbharat} alt="Swachhbharat" className='footericon3'  /></a></li>
+              
+                <li><a href="https://swachhbharatmission.gov.in/SBMCMS/index.htm" target='_blank' rel="noreferrer"><img src={Mygov} alt="Swachhbharat" className='footericon4'  /></a></li>
+              
+                <li><a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html" target='_blank' rel="noreferrer"><img src={Logo1} alt="Logo1" className='footericon5' /></a></li>
+              
+                <li><a href="https://www.indiaculture.nic.in/index.php" target='_blank' rel="noreferrer"><img src={Gandhi} alt="Gandhi" className='footericon6' /></a></li>
+             </Col>
 
             </Row>
 

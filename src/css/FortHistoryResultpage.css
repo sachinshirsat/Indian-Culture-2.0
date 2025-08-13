@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+.fhresulth2 {
+
+    position: relative !important;
+    z-index: 1 !important;
+
+    color: #000 !important;
+    text-align: center !important;
+    font-family: Bebas Neue !important; 
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important; 
+    letter-spacing: 6.4px !important;
+}
+
+.fhresultp {
+    position: relative !important;
+    z-index: 1 !important;
+    margin: 20px 15px !important;
+
+    color: #000 !important;
+    text-align: justify !important;
+    font-family: Quicksand !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+section {
+    padding: 40px 0 !important;
+}
+
+.text {
+    background: #fff !important;
+    position: relative !important;
+    /* width: 100% !important; */
+}
+
+.text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 99%;
+    height: 110%;
+    background: #ffffff;
+    rotate: -3deg;
+    translate: -50% -50%;
+}
+
+.fhimage1 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/fh1.jpg');
+    margin-top: -16px;
+}
+
+.fhimage2 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/fh2.jpg');
+}
+
+.fhimage3 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/fh3.jpg');
+}
+
+.fhimage4 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/fh4.jpg');
+}
+
+.fhimage5 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/fh5.jpg');
+}
+
+.fhimage6 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/fh6.jpg');
+}
+
+.fhimage7 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/fh7.jpg');
+}
+
+ 
+   
+   
+  .fhresult-float-container {
+    position: fixed;
+    top: 38%;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    z-index: 99;
+}
+
+.fhresult-float-container a {
+    z-index: 99;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 220px;
+    height: 40px;
+    margin-right: -180px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-color: #46b8da;
+    border-radius: 5px 0 0 5px;
+    background-color: #89216B;
+    -webkit-box-shadow: 0 2px 4px #7d7d7d;
+    box-shadow: 0 2px 4px #7d7d7d;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+
+.fhresult-float-container a:hover {
+    margin-right: 0;
+    background-color: #89216B;
+    opacity: 1.0;
+    color: #FFF !important;
+    -webkit-box-shadow: 0 2px 4px #7d7d7d;
+    box-shadow: 0 2px 4px #7d7d7d;
+    width: 150px;
+}
+
+/* Icon settings - remove if not needed*/
+.fhresult-float-container .icon:before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 25px;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.icon.one:before {
+    content: "\f073";
+}
+
+.icon.two:before {
+    content: "\f086";
+}
+
+/* .icon.three:before {
+    content: "\f1d8";
+} */
+
+/* Media queries */
+@media screen and (max-width:440px)
+{
+	/* .fhresult-float-container .icon:last-child {
+		display: none;
+	} */
+    .fhresult-float-container
+    {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+            -ms-flex-direction: row;
+                flex-direction: row;
+
+        width: 100%;
+        z-index: 99;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: auto;
+        -webkit-box-align: auto;
+        -ms-flex-align: auto;
+        align-items: auto;
+        opacity: 1.0;
+        
+        
+    }
+		.fhresult-float-container a.icon
+    {
+        right: 0;
+        bottom: 0;
+        opacity: 1.0;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+        padding: 5px;
+        z-index: 99;
+        border-radius: 0;
+        -webkit-box-shadow: 0 0 0 #7d7d7d;
+                box-shadow: 0 0 0 #7d7d7d;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+		border-left: 1px solid darkorange;
+		border-right: 1px solid darkorange;
+    }
+}
+
+
+/*** Discard this ***/

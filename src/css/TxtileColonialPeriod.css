@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+.txtile-coloper-resulth2 {
+
+    position: relative;
+    z-index: 1;
+
+    color: #000;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.4px;
+}
+
+.txtile-coloper-resultp {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15px;
+
+    color: #000;
+    text-align: justify;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.txtile-coloper-text {
+    background: #fff;
+    position: relative;
+    /* width: 100%; */
+}
+
+.txtile-coloper-text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 99%;
+    height: 110%;
+    background: #ffffff;
+    rotate: -2deg;
+    translate: -50% -50%;
+}
+
+.txtile-coloper-image0 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/tnfimg25.png');
+    margin-top: -16px;
+}
+
+.txtile-coloper-image1 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/tnfimg25.png');
+}
+
+.txtile-coloper-image2 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/tnfimg25.png');
+}
+
+.txtile-coloper-image3 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/tnfimg25.png');
+}
+
+.txtile-coloper-image4 {
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../image/tnfimg25.png');
+}

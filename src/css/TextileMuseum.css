@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+
+.txtile-museum-parent-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+/* Partners caption */
+.txtile-museum-header {
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+.txtile-museum-header h1 {
+  margin: 0;
+  font-size: 32px;
+  /* line-height: 60px; */
+
+  font-family: Bebas Neue !important;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  /* margin-top: 20px; */
+
+}
+
+.txtile-museum-banner {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+
+  /* filter: brightness(0.5); */
+  display: flex;
+  /* box-shadow: 2px 4px 10px #000; */
+  margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+  .txtile-museum-banner {
+    flex: 100%;
+    height: 500px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .txtile-museum-banner {
+    flex: 100%;
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .txtile-museum-banner {
+    flex: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .txtile-museum-banner {
+    flex: 100%;
+    height: 200px;
+  }
+}
+
+/* Partners caption */
+.txtile-museum-header {
+  text-align: center;
+  /* margin-top: 60px !important; */
+}
+
+.txtile-museum-header h1 {
+  margin: 0;
+  font-size: 32px;
+  /* line-height: 60px; */
+
+  font-family: Bebas Neue !important;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  /* margin-top: 20px; */
+
+}
+
+
+.swiper {
+  width: 100% !important;
+  padding-top: 0px !important;
+  padding-bottom: 30px !important;
+  margin-top: 30px;
+}
+
+.swiper-slide {
+  background-position: center !important;
+  background-size: cover !important;
+  width: 422px !important;
+  height: 422px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  box-shadow: 0px 2px 14px #363636;
+  border-radius: 2rem;
+  object-fit: cover;
+
+}
+
+.swipetext {
+  position: absolute;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #FFF;
+  text-shadow: 0px 7px 20px rgba(0, 0, 0, 0.5);
+  /* left: 200px;
+  top: 450px; */
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 1024px) {
+  .swiper-slide {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 767px) {
+  .swiper-slide {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .swiper-slide img {
+    border-radius: 2rem;
+  }
+}

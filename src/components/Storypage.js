@@ -3,13 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // bootstrap css
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import './Storypage.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import SwrilDivider from '../image/SwirlDivider 12.png';
 
+// import Stoimg1 from '../image/Rectangle 14.png';
 
 function Storypage() {
+    const story = () => {
+        window.open('/underconstructor', '_parent');
+      };  
     return (
         <div>
 
@@ -31,6 +33,7 @@ function Storypage() {
                                 <div className="item__details">
                                 Koh-i-Noor
                                 </div>
+                                {/* <img src={Stoimg1}  alt="Koh-i-Noor" /> */}
                             </div>
                             <div className="item item--large">
                                 <div className="item__details">
@@ -127,7 +130,7 @@ function Storypage() {
                     <Container className='storycenter'>
                         <Row >
                             <Col>
-                                <button class="storybtn" onClick=""><span>View All </span></button>
+                                <button class="storybtn" onClick={story}><span>View All </span></button>
                             </Col>
                         </Row>
                     </Container>

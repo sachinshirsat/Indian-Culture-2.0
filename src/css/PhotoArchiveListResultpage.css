@@ -1,0 +1,144 @@
+.photoarcresult-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Thumbnail style */
+.photoarcresult-thumbnail {
+    width: 310px;
+    height: 499px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.photoarcresult-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photoarcresult-thumbnail:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Popup styles */
+.photoarcresult-popup {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.photoarcresult-popup-content {
+    /* max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px; */
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+    z-index: 0;
+}
+
+.photoarcresult-close {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 45px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.photoarcresult-close:hover {
+    color: #f0f0f0;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .photoarcresult-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photoarcresult-thumbnail {
+        width: 90%;
+    }
+}
+
+/*  */
+.parent-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    /* cursor: pointer; */
+}
+.mar-top{
+    margin-top: -70px !important;
+}
+/* .mar-top1{
+    margin-top: -50px !important;
+} */
+.photoarc-ResultBanner {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    filter: brightness(0.8);
+    display: flex;
+    /* box-shadow: 2px 4px 10px #000; */
+    margin-top: -16px;
+
+}
+
+@media (max-width: 1024px) {
+    .photoarc-ResultBanner {
+        flex: 100%;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .photoarc-ResultBanner {
+        flex: 100%;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .photoarc-ResultBanner {
+        flex: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .photoarc-ResultBanner {
+        flex: 100%;
+        height: 200px;
+    }
+}
+
+/*  */

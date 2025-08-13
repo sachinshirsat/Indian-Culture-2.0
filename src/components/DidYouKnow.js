@@ -3,37 +3,43 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import './DidYouKnow.css';
-
-
-import Flag from '../image/Ellipse 12.png';
+ 
+import Flag from '../image/Ellipse 12.webp';
 import SwrilDivider from './SwrilDivider';
+
+/* import useTextSize from '../textSizeContext'; */
 
 
 function DidYouKnow() {
+    const didyouknow = () => {
+        window.open('/ltwodidyouknow', '_parent');
+      };  
+
+    /*   const { textSize, increaseTextSize, resetTextSize, decreaseTextSize } = useTextSize(18); */
+
+
     return (
         <>
             <Container className='didyouknowheader' style={{ width: '100%', maxWidth: '1440px', margin: '0 auto' }}>
 
                 <Row>
                     <Col>
-                    <h1>Did You Know?</h1>
+                    <h1 >Did You Know?</h1>
                         <SwrilDivider />
                     </Col>
                 </Row>
 
                 <Row className="justify-content-md-center">
                     {/* <Col xs lg="6"> */}
-                    <Col id='did'>
+                    <Col id='did' >
                         
-                        <h2>Varanasi</h2>
-
-                        <p>Varanasi is one of the world's oldest continually inhabited cities.
+                        <h2 >Varanasi</h2>
+                        {/* style={{ fontSize: `${textSize}px` }} */}
+                        <p >Varanasi is one of the world's oldest continually inhabited cities.
                             Kashi, its ancient name, was associated with a kingdom of the same name of 2,500 years ago.
                             The Buddha is recorded in the Pali canon to have given his first sermon,
                             "The Setting in Motion of the Wheel of Dharma", at nearby Sarnath in 528 BCE.</p>
-                            <button class=" didyouknowbtn" ><span>Read More </span></button>
+                            <button class=" didyouknowbtn" onClick={didyouknow}><span>Read More </span></button>
 
                     </Col>
                     <Col xs lg="4"  className='justify-content-center'>

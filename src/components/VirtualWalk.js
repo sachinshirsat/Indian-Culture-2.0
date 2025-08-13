@@ -1,12 +1,23 @@
 import React from 'react'
 // import { Col, Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useNavigate } from 'react-router-dom';
 
-
-import Virtual from '../image/virtual.jpg'
-import './VirtualWalk.css';
+import Virtual from '../image/virtual.webp' 
 
 function VirtualWalk() {
+    const navigate = useNavigate();
+    
+    const virtualwalk = () => {
+        // window.open('/virtual-walkthrough', '_parent');
+        navigate('/virtual-walkthrough');
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+
+      };  
     return (
         <>
         <div className='virtu'>
@@ -16,7 +27,7 @@ function VirtualWalk() {
                 {/* <SwrilDivider/> */}
          {/*        <p className='freedom-para'>After more than 7 decades of freedom, these stories of courage,
                     selflessness and determination continue to inspire and instill pride in us.</p> */}
-                <button className="virtualbtn" onClick=""><span>Explore</span></button>
+                <button className="virtualbtn" onClick={virtualwalk}><span>Explore</span></button>
 
             </div>
             </div>

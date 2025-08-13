@@ -1,14 +1,13 @@
-import {React } from 'react';
+import { React } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import './HomeGallery.css';
 
-
-import Homegallery from '../image/Rectangle 224.png';
-import Homegallery1 from '../image/Rectangle 225.png';
-import Homegallery2 from '../image/Rectangle 226.png';
-import Homegallery3 from '../image/Rectangle 227.png';
+import Homegallery from '../image/Rectangle 224.webp';
+import Homegallery1 from '../image/Rectangle 225.webp';
+import Homegallery2 from '../image/Rectangle 226.webp';
+import Homegallery3 from '../image/Rectangle 227.webp';
+import Homegallery4 from '../image/Rectangle 228.webp';
 // import SwrilDivider from './SwrilDivider';
 
 import SwrilDivider from '../image/SwirlDivider 12.png';
@@ -20,49 +19,102 @@ import Homegallery5 from '../image/Rectangle 229.png'; */
 
 function HomeGallery() {
 
-  
+    const homegallery = () => {
+        window.open('/galleryview', '_parent');
+    };
+
     return (
         <>
-        <div className='galle'>
-            <Container fluid >
-                <Container className='homegallery-header'>
-                    <Row >
-                        <Col >
-                            <h1>Gallery</h1>
-                            <img src={SwrilDivider} alt="" style={{ width: '90px', height: '15px', backgroundColor: 'transparent' }}/>
+            <div className='galle'>
+                {/* <Container  > */}
+                    <Container className='homegallery-header'>
+                        <Row >
+                            <Col >
+                                <h1>Gallery</h1>
+                                <img src={SwrilDivider} alt="" style={{ width: '90px', height: '15px', backgroundColor: 'transparent' }} />
 
-                            {/* <SwrilDivider /> */}
+                                {/* <SwrilDivider /> */}
+                            </Col>
+                        </Row>
+                    </Container>
+                    {/* Gallery thumbnails*/}
+                    {/* <div className="gallery-container galryfit" style={{ width: '100%', maxWidth: '1440px', margin: '0 auto' }}> */}
+
+                    <div className="gallery-container galryfit" >
+
+                       <div className="gallery">
+
+                            <div className="gallery-item gallitem1">
+                                <img className="gallery-image" src={Homegallery4} alt="" />
+                            </div>
+
+                            <div className="gallery-item gallitem2">
+                                <img className="gallery-image" src={Homegallery} alt="" />
+                            </div>
+                            <div className="gallery-item gallitem3">
+                                <img className="gallery-image" src={Homegallery1} alt="" />
+                            </div>
+
+                            <div className="gallery-item gallitem4">
+                                <img className="gallery-image" src={Homegallery2} alt="" />
+                            </div>
+
+                            <div className="gallery-item gallitem5">
+                                <img className="gallery-image" src={Homegallery4} alt="" />
+                            </div>
+
+                            <div className="gallery-item gallitem6">
+                                <img className="gallery-image" src={Homegallery3} alt="" />
+                            </div>
+                            {/*  */}
+                            <div className="gallery-item gallitem7">
+                                <img className="gallery-image" src={Homegallery} alt="" />
+                            </div>
+
+                            <div className="gallery-item gallitem8">
+                                <img className="gallery-image" src={Homegallery4} alt="" />
+                            </div>
+                            <div className="gallery-item gallitem9">
+                                <img className="gallery-image" src={Homegallery} alt="" />
+                            </div>
+
+                            <div className="gallery-item gallitem10">
+                                <img className="gallery-image" src={Homegallery2} alt="" />
+                            </div>
+                            <div className="gallery-item gallitem11">
+                                <img className="gallery-image" src={Homegallery3} alt="" />
+                            </div>
+
+                            <div className="gallery-item gallitem12">
+                                <img className="gallery-image" src={Homegallery1} alt="" />
+                            </div>
+                            {/* <div class="gallery-item gallitem2">
+                                <img class="gallery-image" src={Homegallery} alt="" />
+                            </div>
+                            <div class="gallery-item gallitem3">
+                                <img class="gallery-image" src={Homegallery1} alt="" />
+                            </div>
+                            <div class="gallery-item gallitem2">
+                                <img class="gallery-image" src={Homegallery} alt="" />
+                            </div> */}
+                           
+ 
+                        </div>
+
+                    </div>
+
+                {/* </Container> */}
+                <Container className='storycenter'>
+                    <Row >
+                        <Col>
+                            {/* after clicking on 'View All' btn, user will redirect to Gallery List page  */}
+                            <button className="homegallerybtn" onClick={homegallery}><span>View All </span></button>
+
+
+
                         </Col>
                     </Row>
                 </Container>
-                {/* 2nd option*/}
-                <div id='photos' class="image-collage " >
-                    <img src={Homegallery} alt="1" />
-
-                    <img src={Homegallery1} alt="2" />
-                    <img src={Homegallery2} alt="3" className='gallery' />
-                    <img src={Homegallery3} alt="4" />
-                    <img src={Homegallery} alt="5" />
-
-
-                    <img src={Homegallery2} alt="6" className='gallery' />
-                    <img src={Homegallery3} alt="7" />
-                    <img src={Homegallery} alt="8" />
-                    <img src={Homegallery3} alt="9" />
-                    <img src={Homegallery} alt="10" />
-                </div>
-
-            </Container>
-            <Container className='storycenter'>
-                <Row >
-                    <Col>
-                        {/* after clicking on 'View All' btn, user will redirect to Gallery List page  */}
-                        <button className="homegallerybtn" ><span>View All </span></button>
-
-
-                    </Col>
-                </Row>
-            </Container>
             </div>
         </>
     )
